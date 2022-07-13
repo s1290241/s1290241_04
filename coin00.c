@@ -3,10 +3,6 @@
 #include<time.h>
 int main()
 {
-  char str[100];
-  printf("Who are you?\n");
-  scanf("%s",str);
-  printf("Hello,%s!\n",str);
   int coin[3];
   int h=0;
   int t=0;
@@ -32,14 +28,6 @@ int main()
   
 
   printf("Heads: %d, Tails: %d\n",h,t);
-  if(h>t)
-  {
-    printf("you won!\n");
-  }
-  else
-  {
-    printf("you lost!\n");
-  }
-  
+ 
 
 }
