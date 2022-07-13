@@ -3,6 +3,7 @@
 #include<time.h>
 int main()
 {
+  char str[100];
   printf("Who are you?\n");
   scanf("%s",str);
   printf("Hello,%s!\n",str);
